@@ -25,7 +25,7 @@ def compute_similarity(resume_text, job_desc):
 
 # Streamlit UI
 st.set_page_config(page_title="Resume & JD Matcher", layout="centered")
-st.title("📄 Resume vs Job Description Similarity Checker:")
+st.title("📄 Resume vs Job Description Prediction Model:")
 
 st.write("Upload your **Resume (PDF)** and enter the **Job Description** to see how well they match.")
 
@@ -46,10 +46,11 @@ st.markdown(
     """
     <style>
     .stApp{
-        background-color: #FF8C00;
+        background-color: #6B8E23;
     }
     </style>
     """,
     unsafe_allow_html=True
 ) 
    
+
